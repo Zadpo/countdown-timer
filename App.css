@@ -1,0 +1,31 @@
+.countdown-timer {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+
+.timer-container span:not(:last-child)::after {
+  content: ":";
+  margin: 0 0.5rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-group {
+  margin: 0 1rem;
+}
+
+input[type='number'] {
+  width: 4rem;
+  margin-left: 0.5rem;
+}
